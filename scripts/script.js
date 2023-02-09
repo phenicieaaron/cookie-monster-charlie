@@ -14,6 +14,9 @@ $(function () {
     $("img").attr(
       "src",
       "https://www.middlebury.edu/office/sites/www.middlebury.edu.office/files/styles/432x576/public/2019-08/cookie-monster-portrait.jpg?fv=oYugFKrU&itok=6qZScOPW");
+    $("#draggable").fadeOut(2000).fadeIn(2000).position(0, 0);
+
+    
   });
  
     $( "#draggable" ).draggable({
