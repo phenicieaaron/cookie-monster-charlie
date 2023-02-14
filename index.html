@@ -1,7 +1,10 @@
 <!-- bravo => charlie improvements 2.0
   HTML: incorporate BS5 grid
-  CSS: ?
-  JS: ?
+  CSS: added google font,
+  attempted to disable scrolling while shaking the monster, centered text
+  within row
+  JS: added fade in/out // todo/cannot figure out: how to
+  center picture after reset
 -->
 
 <!DOCTYPE html>
@@ -31,37 +34,32 @@
 
   <!-- navigation bar -->
   <div class="topnav">
-    <a class="active" href="#home">Home</a>
+    <a class="active" href="https://phenicieaaron.github.io/cookie-monster-charlie/">Home</a>
     <a href="https://github.com/phenicieaaron/cookie-monster-charlie" target="_blank">Link to github</a>
     <a href="https://www.verybestbaking.com/toll-house/recipes/original-nestle-toll-house-chocolate-chip-cookies/">Recipes</a>
     <a href="https://en.wikipedia.org/wiki/Cookie_Monster#:~:text=Cookie%20Monster%20is%20a%20blue,real%20name%20as%20%22Sid%22.">Wiki</a>
   </div>
 
+  <!-- <h2> Shake for a cookie!!<style> h2 {text-align: center;}</style></h2> -->
+
+
   <!-- title -->
   <div class="row">
-    <div class="col-md-8">
-      <h2> Shake for a cookie!!<style> h2 {text-align: center;}</style></h2>
+    <!-- stack overflow fix to center  -->
+    <div class="col-md-8"></div>
+    <div class = "centerButton">
+      <button id="resetGame" class="btn btn-secondary">Push For More Cookies</button>
     </div>
   </div>
-
-
-      <div class="col-md-4">second column</div>
-
-      
+    <div class="'col-md-4"><h2> Shake for a cookie!!
+      <style> 
+        h2 {text-align: center;}
+      </style>
+    </h2></div>
   </div>
 </div>
-
-
-<!-- <h2> Shake for a cookie!!
-  <style> 
-    h2 {text-align: center;}
-  </style>
-</h2> -->
-
 <br>
-<div class = "centerButton">
-  <button id="resetGame" class="btn btn-secondary">Push For More Cookies</button>
-</div>
+
 
 <br><br>
 <div id="draggable" class="ui-widget-content">
